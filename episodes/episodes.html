@@ -7,43 +7,33 @@
   <title>Document</title>
 </head>
 <body>
-  <header> <!-- Include the tag for introductory content  header -->
-
-    <!-- put image first, then wrap the ancor tag. Display stuff you should know logo nested in an anchor tag to link to index.html -->
-  <a href="../index.html"><img src="../images/sysk-logo.webp" alt="logo saying stuff you should know"></a>
-   <nav> <!--  nav Write the markup for a navigation and link items to appropriate pages -->
-   <ul>
-   <li><a href="../about.html">About</a></li>
-   <li><a href="../episodes.html">Episodes</a></li>
-  </ul>
-  </nav>
+  <header>
+    <a href="../index.html">
+    <img src="../images/sysk-logo.webp"alt=stuffyoushouldknowlogo>
+    </a>
+ 
+      <nav role="navigation">
+      <ul>
+       <li><a href="../about.html">About</a></li>
+       <li><a href= "episodes.html">Episodes</a></li>
+     </ul>
+   </nav>
   </header>
- <!-- Include the tag for introductory content -->
 
-    <!-- Display sysk logo nested in an anchor tag to link to index.html -->
-  
-    <!-- Write the markup for a navigation and link items to appropriate pages -->
-    About
-    Episodes
-
-
-
-  <!-- Add an element that represents the main content of the page --> 
-
-    <!-- Main heading for the page -->
-    Featured Episodes
+<main><main role=“main”>
+    <h1>Featured Episodes</h1>
 
     There are so many episodes of Stuff You Should Know to listen to but here are three of our favourites; in this order.
-
-    <!-- Display the following as a list and link to appropriate existing html page -->
-    1. Interesting Origins of Everday Phrases
-    2. The History of Fake Towns
-    3. Doppelgängers: Hey you, you're me!
-
-
+    <ol>
+      <li><a href="everyday-phrases.html"aria-label="view the episode the interesing origins of everday phrases">Interesting Origins of Everyday Phrases</a></li>
+      <li><a href="fake-towns.html" aria-label="view the episode The History of Fake Towns"> The History of Fake Towns</a></li>
+      <li><a href="doppelgangers.html" aria-label="view the episode Doppelgängers: Hey you, you're me!"> Doppelgängers: Hey you, you're me!</a></li>
+    </ol>
+ 
+  </main>
 
   <!-- Include the tag for footer content -->
-  &copy; SYSK 2023 
+  <footer><p><small> &copy; SYSK 2023 </small></p></footer> 
 
 
 </body>
